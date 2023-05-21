@@ -6,4 +6,5 @@ export const BoxStyled = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 150px;
+  font-size: 28px;
 `;

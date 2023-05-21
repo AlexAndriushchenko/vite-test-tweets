@@ -10,12 +10,11 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: ${theme.fontFamily.montserrat};
     font-weight: ${theme.fontWeight.medium};
-    font-size: ${theme.fontSizes.s};
+    font-size: ${theme.fontSizes.xs};
     line-height: 1.2;
   }
   #root { 
     height: 100%;
-    width : 100%;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

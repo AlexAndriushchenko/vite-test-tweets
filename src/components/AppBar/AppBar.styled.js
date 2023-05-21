@@ -25,6 +25,7 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  font-size: ${theme.fontSizes.s};
 
   color: ${theme.colors.mainText};
   background-color: ${theme.colors.accent};

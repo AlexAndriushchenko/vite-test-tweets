@@ -2,7 +2,7 @@ export const theme = {
   colors: {
     accent: "#EBD8FF",
     secondaryAccent: "#5CD3A8",
-    background: '#5736A3',
+    background: "#5736A3",
     mainText: "#373737",
     mainBackground: "FFFFFF",
     cardBackground:
@@ -19,8 +19,12 @@ export const theme = {
   },
 
   fontSizes: {
+    xxs: "12px",
+    xs: "14px",
     s: "18px",
     m: "20px",
+    l: "32px",
+    xl: "64px",
   },
 
   boxShadow: {
