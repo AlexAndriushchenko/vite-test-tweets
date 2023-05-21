@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import background from "../../assets/images/background.png";
+import { theme } from "../../globalStyles/theme";
 
 export const CardStyled = styled.div`
   position: relative;
@@ -30,7 +31,13 @@ export const UpperContainer = styled.div`
 
 export const Text = styled.p`
   line-height: 1.2;
+
+  margin-bottom: 16px;
+  font-size: ${theme.fontSizes.m};
+  text-align: center;
   text-transform: uppercase;
+
+  color: ${theme.colors.accent};
 
   :not(:last-of-type) {
     margin-bottom: 16px;

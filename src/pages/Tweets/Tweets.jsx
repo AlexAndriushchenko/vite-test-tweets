@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { DotLoader } from "react-spinners";
 import Api from "../../services/Api";
 import { PER_PAGE } from "../../constans/Constans";
 import { CardList } from "../../components/CardList/CardList";
@@ -45,8 +46,14 @@ const Tweets = () => {
     <BoxTweets>
       <GoBackButton to="/">Back</GoBackButton>
 
-      {/* loader */}
-      {isLoading && <b>Request in progress...</b>}
+      {isLoading && (
+        <DotLoader
+          size={80}
+          color={"#00BFFF"}
+          loading={isLoading}
+          css="margin-top: 20px;"
+        />
+      )}
 
       <CardList displayedUsers={displayedUsers} />
 

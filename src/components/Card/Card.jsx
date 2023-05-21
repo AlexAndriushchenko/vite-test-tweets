@@ -49,9 +49,12 @@ export const Card = ({ name, avatar, tweets, initialFollowers }) => {
       <UpperContainer>
         <LogoStyled src={Logo} alt="Logo" width="76px" height="22px" />
       </UpperContainer>
+
       <Avatar name={name} avatar={avatar} />
+
       <Text> {tweets} tweets</Text>
       <Text>{getVisibleFollowers(followers)} Followers</Text>
+
       <Button type="button" onClick={handleClick} name={buttonStatus}>
         {buttonStatus}
       </Button>
