@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import Api from "../../services/Api";
 import { PER_PAGE } from "../../constans/Constans";
 import { CardList } from "../../components/CardList/CardList";
-import { BoxTweets, ButtonLoadMore, WrapperLoadMore } from "./Tweets.styled";
 import { GoBackButton } from "../../components/GoBack/GoBack";
+import { BoxTweets, ButtonLoadMore, WrapperLoadMore } from "./Tweets.styled";
 
 const Tweets = () => {
   const [users, setUsers] = useState([]);
