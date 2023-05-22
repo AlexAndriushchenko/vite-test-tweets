@@ -8,3 +8,7 @@ export const ListStyled = styled.ul`
   margin-top: 15px;
   margin-bottom: 15px;
 `;
+
+export const ListItem = styled.li`
+  width: 380px;
+`;

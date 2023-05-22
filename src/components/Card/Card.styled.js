@@ -5,13 +5,14 @@ import { theme } from "../../globalStyles/theme";
 export const CardStyled = styled.div`
   position: relative;
   margin: 0 auto;
-  width: 380px;
+  width: 100%;
   padding: 28px 36px 36px 36px;
   text-align: center;
   text-transform: uppercase;
   background: ${({ theme }) => theme.colors.cardBackground};
   box-shadow: ${({ theme }) => theme.boxShadow.card};
   border-radius: 20px;
+  box-sizing: border-box;
 `;
 
 export const LogoStyled = styled.img`
